@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <metal charset="UTF-8">
+    </metal name="viewport" content="width=device-width, initial-scalle=1.0">   
+    <title>webSocket Data Channel</title>
+    <link rel="stylesheet" href="style.css">
+    <script scr="http://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="chat-contrainer">
+        <button id="btn-start">
+            <i class="fas fa-paper-plane"></i>Start
+        </button>
+        <button id="btn-end">
+            <a class="end" href="">End</a>
+        </button>
+        <div class="chat-header">
+            <div class="logo">
+                <i class="fab fa-instagram"></i>
+                <h3>webSocket chat</h3>
+            </div>
+            <p id="your-name"></p>
+        </div>
+         <div class="chat-section">
+            <div class="main-wrapper">
+                <div class="chat-content">
+                    <div class="message">
+                        <div class="message-row other-message">
+                            <div class="message-row other-message">
+                            </div>
+                        </div>
+                    </div>
+                    <from class="msg-tex">
+                        <input type="text" name="msg" id="msg" placeholder="Type Massage Here... " autocomplete="off">
+                        <button id="btn-send">
+                            <i class="fas fa-paper-plane">send</i>
+                        </button>
+                    </from>
+                </div>
+            </div>
+        </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
