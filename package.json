@@ -1,0 +1,22 @@
+{
+  "name": "webrtc-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "AYYOUB HAJJAJI",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1",
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

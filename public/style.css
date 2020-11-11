@@ -1,0 +1,58 @@
+/*-----------partie1 style-----*/
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    float: center;
+    align-self: center;
+}
+.title{
+    position: relative;
+    left: 30%;
+    color: black;
+}
+.video{
+    position: relative;
+    left: 28%;
+    width: 500px;
+    height: 400px;
+}
+.desc1{
+    position: relative;
+    left: 30%;
+    color: black;
+
+}
+.desc2{
+    position: relative;
+    left: 30%;
+    color: black;
+
+}
+
+.main__controls__block {
+    display: flex;
+    position: relative;
+    left: 35%;
+}
+
+.main__controls__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.main__controls__button:hover {
+    background-color: #343434;
+    border-radius: 5px;
+    color: white;
+}
+
+/*-----------partie2 style-----*/
